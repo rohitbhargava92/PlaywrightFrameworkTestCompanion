@@ -1,0 +1,2 @@
+This is a sample upload file used in Playwright file-handling tests.
+It is intentionally small and contains only plain text.

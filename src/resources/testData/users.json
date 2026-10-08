@@ -1,0 +1,32 @@
+{
+  "standardUser": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "description": "Standard user — full access, all features work"
+  },
+  "lockedOutUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "description": "Locked-out user — login should be rejected"
+  },
+  "problemUser": {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "description": "Problem user — some UI elements are broken"
+  },
+  "performanceGlitchUser": {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "description": "Performance glitch user — pages load slowly"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "wrong_password",
+    "description": "Non-existent user — login should fail with error"
+  },
+  "emptyCredentials": {
+    "username": "",
+    "password": "",
+    "description": "Empty credentials — should show validation error"
+  }
+}

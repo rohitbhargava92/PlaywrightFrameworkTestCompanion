@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (never commit secrets)
+.env
+
+# Playwright output
+playwright-report/
+test-results/
+dist/
+
+# Downloads folder contents (keep the folder via .gitkeep)
+src/resources/downloads/*
+!src/resources/downloads/.gitkeep
+
+# Generated test output
+allure-results/
+log/
+
+# OS files
+.DS_Store
+Thumbs.db

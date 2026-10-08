@@ -1,0 +1,26 @@
+{
+  "validCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "postalCode": "10001",
+    "description": "Valid checkout data — form should submit successfully"
+  },
+  "missingFirstName": {
+    "firstName": "",
+    "lastName": "Doe",
+    "postalCode": "10001",
+    "description": "Missing first name — should show validation error"
+  },
+  "missingLastName": {
+    "firstName": "Jane",
+    "lastName": "",
+    "postalCode": "10001",
+    "description": "Missing last name — should show validation error"
+  },
+  "missingPostalCode": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "postalCode": "",
+    "description": "Missing postal code — should show validation error"
+  }
+}
